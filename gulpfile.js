@@ -46,7 +46,7 @@ gulp.task('zip-builds', ['nwbuild'], function() {
    console.log(folders);
    var tasks = folders.map(function(folder) {
       return gulp.src(path.join(buildsPath, p.name, folder, '**'))
-        .pipe(zip('static-server-' + folder + '.zip'))
+        .pipe(zip(p.name + '-' + folder + '.zip'))
         .pipe(gulp.dest(buildsPath))
    });
 
