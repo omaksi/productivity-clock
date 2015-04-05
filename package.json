@@ -1,0 +1,29 @@
+{
+  "name": "productivity-clock",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "show": false,
+    "transparent": true,
+    "frame": false,
+    "toolbar": false,
+    "width": 170,
+    "height": 90,
+    "position": "center",
+    "always-on-top": true,
+    "show_in_taskbar": false,
+    "resizable": false
+  },
+  "dependencies": {
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-zip": "^3.0.2",
+    "merge-stream": "^0.1.7",
+    "node-webkit-builder": "^1.0.11"
+  }
+}
