@@ -13,7 +13,7 @@ var p = require('./package.json');
 var config = {
   sourcePath: './**',
   targetPath: './build',
-  platforms: ['win64'], // ['osx32', 'osx64', 'win32', 'win64']
+  platforms: ['win64', 'osx64'], // ['osx32', 'osx64', 'win32', 'win64']
   cleanCache: true,
   cleanUnzipped: false
 }
