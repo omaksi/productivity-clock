@@ -15,9 +15,10 @@
     "resizable": false
   },
   "dependencies": {
-    "moment": "^2.9.0"
+    "moment": "^2.10.0"
   },
   "devDependencies": {
+    "async": "^0.9.0",
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
